@@ -3,9 +3,8 @@
 baseurl = "http://example.org/"
 languageCode = "en-us"
 title = "John Doe Resume"
-theme = "herman-cv"
+theme = "hugo-orbit-theme"
 googleAnalytics = "UA-XXXXXXX-Y"
-publishDir = "docs"
 
 # Do not build files for websites. Need them? Set to false
 disableRSS = true
@@ -197,7 +196,7 @@ disable404 = true
         [[params.skills.list]]
         skill = "Python & Django"
         level = "98%"
-
+                
         [[params.skills.list]]
         skill = "Javascript & jQuery"
         level = "98%"
@@ -224,7 +223,7 @@ disable404 = true
     # Please keep the original attribution link when using for your own project.
     # If you'd like to use the template without the attribution,
     # you can check out other license options via template author's website: themes.3rdwavemedia.com
-    #
+    # 
     # As for Hugo port you may rewrite the "Ported for..." line with setting your name below.
 
     [params.footer]
