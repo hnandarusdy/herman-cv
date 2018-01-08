@@ -1,6 +1,6 @@
 # Page settings
 
-baseurl = "http://example.org/"
+baseurl = "https://hnandarusdy.github.io/herman-cv/"
 languageCode = "en-us"
 title = "John Doe Resumeaa"
 theme = "herman-cv"
