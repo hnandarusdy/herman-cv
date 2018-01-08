@@ -31,8 +31,8 @@ disable404 = true
 
     # Profile section
     [params.profile]
-        name = "John Doe"
-        tagline = "Full Stack Developer"
+        name = "Herman Nanda Rusdy"
+        tagline = "Analyst"
         avatar = "profile.png"
 
     # Contact section
@@ -42,8 +42,8 @@ disable404 = true
         [[params.contact.list]]
         class = "email"
         icon = "fa-envelope"
-        url = "mailto: yourname@email.com"
-        title = "john.doe@website.com"
+        url = "mailto: hnandarusdy@gmail.com"
+        title = "hnandarusdy@gmail.com"
 
         [[params.contact.list]]
         class = "phone"
@@ -81,14 +81,14 @@ disable404 = true
         title = "Education"
 
         [[params.education.list]]
-        degree = "MSc in Computer Science"
-        college = "University of London"
-        dates = "2006 - 2010"
+        degree = "Master of Information Technology"
+        college = "Swinburne University of Melbourne"
+        dates = "2013 - 2015"
 
         [[params.education.list]]
-        degree = "BSc in Applied Mathematics"
-        college = "Bristol University"
-        dates = "2007 - 2011"
+        degree = "Bachelor Degree of Computer Science"
+        college = "Bina Nusantara University of Jakarta"
+        dates = "2006 - 2010"
 
     # Languages section
     [params.language]
