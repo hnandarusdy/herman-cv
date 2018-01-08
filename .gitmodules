@@ -1,0 +1,3 @@
+[submodule "herman-cv/themes/herman-cv"]
+	path = herman-cv/themes/herman-cv
+	url = https://github.com/aerohub/hugo-orbit-theme
