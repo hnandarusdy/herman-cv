@@ -96,15 +96,11 @@ disable404 = true
         title = "Languages"
 
         [[params.language.list]]
-        language = "English"
+        language = "Bahasa Indonesia"
         level = "Native"
 
         [[params.language.list]]
-        language = "French"
-        level = "Professional"
-
-        [[params.language.list]]
-        language = "Russian"
+        language = "English"
         level = "Professional"
 
     # Interests section
@@ -113,13 +109,13 @@ disable404 = true
         title = "Interests"
 
         [[params.interests.list]]
-        interest = "Climbing"
+        interest = "Futsal/Soccer"
 
         [[params.interests.list]]
-        interest = "Snowboarding"
+        interest = "Reading"
 
         [[params.interests.list]]
-        interest = "Cooking"
+        interest = "Data"
 
 # Main body sections
 
@@ -130,7 +126,7 @@ disable404 = true
         enable = true
         icon = "fa-user"
         title = "Career Profile"
-        summary = "**Summarise your career here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu."
+        summary = "Beginning my IT journey in 2007 when was hired as lab assisstant to teach other students programming skills, such as VB, PHP, Javascript, C, C++. Promoted as a subject coordinator a year later to coordinate specific subjects, such as material, examination"
 
     # Experiences section
     [params.experiences]
@@ -139,10 +135,10 @@ disable404 = true
         title = "Experiences"
 
         [[params.jobs.list]]
-        position = "Lead Developer"
+        position = "Analyst"
         dates = "2015 - Present"
-        company = "Startup Hubs, San Francisco"
-        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo.\n\n Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+        company = "Clearbridge Group PTY LTD, Melbourne, Australia"
+        details = "- asd - asdasd  - asdasdas asdasdasd asd as a"
 
         [[params.jobs.list]]
         position = "Senior Software Engineer"
