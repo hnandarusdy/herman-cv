@@ -191,27 +191,39 @@ disable404 = true
         title = "Skills & Proficiency"
 
         [[params.skills.list]]
-        skill = "Python & Django"
-        level = "98%"
-
-        [[params.skills.list]]
-        skill = "Javascript & jQuery"
-        level = "98%"
-
-        [[params.skills.list]]
-        skill = "Angular"
+        skill = "BA Skills (BPM, DFD, RTM, Use Case, User Stories)"
         level = "95%"
 
         [[params.skills.list]]
-        skill = "HTML5 & CSS"
+        skill = "Pentaho + Trifacta (Data Wrangling Tools)"
         level = "95%"
 
         [[params.skills.list]]
-        skill = "Ruby on Rails"
-        level = "75%"
+        skill = "Data Analysis [Dashboard Reporting]"
+        level = "95%"
 
         [[params.skills.list]]
-        skill = "Sketch & Photoshop"
+        skill = "Analytic skills"
+        level = "95%"
+
+        [[params.skills.list]]
+        skill = "Database Skills (CRUD, Query)"
+        level = "95%"
+
+        [[params.skills.list]]
+        skill = "Project Management (PMBOK)"
+        level = "85%"
+
+        [[params.skills.list]]
+        skill = "OS (Microsoft & Linux)"
+        level = "80%"
+
+        [[params.skills.list]]
+        skill = "Deployment (Kubernetes)"
+        level = "60%"
+
+        [[params.skills.list]]
+        skill = "Web Development"
         level = "60%"
 
     # Footer section
