@@ -8,11 +8,11 @@ features = ["responsive", "colour schemes"]
 min_version = 0.16
 
 [author]
-  name = "Pavel Kanyshev"
+  name = "Herman Nanda Rusdy"
   homepage = "//github.com/aerohub"
 
 # If porting an existing theme
 [original]
-  name = "Xiaoying Riley"
+  name = "Herman Nanda Rusdy"
   homepage = "//github.com/xriley"
   repo = "//github.com/xriley/Orbit-Theme"

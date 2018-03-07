@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>John Doe Resumeaa</title>
+    <link>https://hnandarusdy.github.io/herman-cv/</link>
+    <description>Recent content on John Doe Resumeaa</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://hnandarusdy.github.io/herman-cv/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>
