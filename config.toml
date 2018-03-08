@@ -113,7 +113,7 @@ disable404 = true
 
         [[params.interests.list]]
         interest = "Family Time"
-        
+
 # Main body sections
 
     # You may use markdown in summary, details and intro fields. But don't overdose, it's resume!:)
@@ -280,6 +280,22 @@ disable404 = true
     # you can check out other license options via template author's website: themes.3rdwavemedia.com
     #
     # As for Hugo port you may rewrite the "Ported for..." line with setting your name below.
+    [params.portfolios]
+        enable = true
+        icon = "fa fa-camera-retro fa-4x"
+
+        [[params.portfolios.list]]
+        name = "SAASU"
+        url = "https://datastudio.google.com/u/0/reporting/1q7HhtHtWRu5R-LR9Mw2ROT04OHYY3ge1/page/KPoN"
+        image_src = "saasu.jpg"
+
+        [[params.portfolios.list]]
+        name = "CLOSEIO"
+        image_src = "closeio.jpg"
+
+        [[params.portfolios.list]]
+        name = "CBBA"
+        image_src = "cbba.jpg"
 
     [params.footer]
         copyright = "Herman Nanda Rusdy"

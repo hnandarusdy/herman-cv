@@ -1,0 +1,11 @@
+<link rel="stylesheet" href="/static/css/slideshow.css">
+            <section class="skills-section section">
+                <h2 class="section-title"><i class="fa {{ .Site.Params.portfolios.icon }}"></i>Portfolios</h2>
+                {{ range .Site.Params.portfolios.list }}
+                  <h3>{{ .name }}</h3>
+                  <a href="{{ .url }}">
+                    <img src="{{ .Site.BaseURL }}assets/images/{{ .image_src }}" style="width:100%" alt="" >
+                  </a>
+                </br>
+                {{ end }}
+            </section><!--//skills-section-->

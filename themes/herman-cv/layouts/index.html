@@ -27,6 +27,10 @@
 	{{ partial "skills.html" . }}
     {{ end }}
 
+    {{ if .Site.Params.portfolios.enable }}
+  {{ partial "portfolios.html" . }}
+    {{ end }}
+
 	</div><!--//main-body-->
     </div>
 
