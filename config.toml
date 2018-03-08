@@ -2,7 +2,7 @@
 
 baseurl = "https://hnandarusdy.github.io/herman-cv/"
 languageCode = "en-us"
-title = "John Doe Resumeaa"
+title = "Herman resume"
 theme = "herman-cv"
 googleAnalytics = "UA-XXXXXXX-Y"
 publishDir = "docs"
@@ -32,8 +32,8 @@ disable404 = true
     # Profile section
     [params.profile]
         name = "Herman Nanda Rusdy"
-        tagline = "Analyst"
-        avatar = "profile.png"
+        tagline = "Business/System Analyst"
+        avatar = "a.jpg"
 
     # Contact section
     [params.contact]
@@ -48,32 +48,26 @@ disable404 = true
         [[params.contact.list]]
         class = "phone"
         icon = "fa-phone"
-        url = "tel:+1234567890"
-        title = "+1234567890"
+        url = "tel:+61424972388"
+        title = "+61424972388"
 
         [[params.contact.list]]
         class = "website"
         icon = "fa-globe"
-        url = "//portfoliosite.com"
-        title = "portfoliosite.com"
+        url = "https://hnandarusdy.github.io/herman-cv/"
+        title = "My Resume"
 
         [[params.contact.list]]
         class = "linkedin"
         icon = "fa-linkedin"
-        url = "//linkedin.com/in/johndoe"
-        title = "linkedin.com/in/johndoe"
+        url = "https://www.linkedin.com/in/hnandarusdy/"
+        title = "linkedin.com/in/hnandarusdy/"
 
         [[params.contact.list]]
         class = "github"
         icon = "fa-github"
-        url = "//github.com/username"
-        title = "github.com/username"
-
-        [[params.contact.list]]
-        class = "twitter"
-        icon = "fa-twitter"
-        url = "//twitter.com/username"
-        title = "@twittername"
+        url = "https://github.com/hnandarusdy/"
+        title = "github.com/hnandarusdy/"
 
     # Education section
     [params.education]
@@ -115,8 +109,11 @@ disable404 = true
         interest = "Reading"
 
         [[params.interests.list]]
-        interest = "Data"
+        interest = "Data Analysis"
 
+        [[params.interests.list]]
+        interest = "Family Time"
+        
 # Main body sections
 
     # You may use markdown in summary, details and intro fields. But don't overdose, it's resume!:)
@@ -126,8 +123,15 @@ disable404 = true
         enable = true
         icon = "fa-user"
         title = "Career Profile"
-        summary = "Beginning my IT journey in 2007 when was hired as lab assisstant to teach other students programming skills, such as VB, PHP, Javascript, C, C++. Promoted as a subject coordinator a year later to coordinate specific subjects, such as material, examination"
-
+        summary = """Beginning my IT journey in 2007 when was hired as lab assisstant to teach other students programming skills,
+                  such as VB, PHP, Javascript, C, C++. Promoted as a subject coordinator a year later to coordinate specific subjects,
+                  and eventually as a network administrator who is responsible for laboratory installation, configuration and network.
+                  </br>
+                  </br>
+                  I moved to Australia in 2013 to pursue my career as a BA and I have been working in this position since 2015. My
+                  biggest interests are about solving problems and data analytics. I am really interested in studying Machine Learning
+                  for my next step career.
+                  """
     # Experiences section
     [params.experiences]
         enable = true
@@ -135,54 +139,96 @@ disable404 = true
         title = "Experiences"
 
         [[params.jobs.list]]
-        position = "Analyst"
+        position = "Business / System Analyst"
         dates = "2015 - Present"
         company = "Clearbridge Group PTY LTD, Melbourne, Australia"
-        details = "- asd - asdasd  - asdasdas asdasdasd asd as a"
+        details = """<li>Gathering requirements and turn into use case/user stories/RTM and test cases</li>
+                  <li>Create and manage reporting dashboard from CRM and Accounting (saasu) system</li>
+                  <li>Working closely with PM to manage projects with Agile Development</li>
+                  <li>Interviewing and solving client's problems</li>
+                  <li>Responsible for users' training for new features</li>
+                  <li>Managing deployment of kubernetes/Docker environment</li>
+                  """
 
         [[params.jobs.list]]
-        position = "Senior Software Engineer"
-        dates = "2014 - 2015"
-        company = "Google, London"
-        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."
+        position = "Internship Business Analyst/QA "
+        dates = "March 2015 - May 2015"
+        company = "Media Link Australia"
+        details = """<li>Create user stories based on user specific requirements, create test cases, and test the functionality and the GUI.</li>
+                  <li>Working closely with Project Manager to manage projects</li>
+                  <li>Tracking projects from JIRA</li>
+                  """
 
         [[params.jobs.list]]
-        position = "UI Developer"
-        dates = "2012 - 2014"
-        company = "Amazon, London"
-        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."
+        position = "Tutor"
+        dates = "Feb 2015 - Oct 2015"
+        company = "Junior Engineer"
+        details = "Teaching primary school students about basic programming "
+
+        [[params.jobs.list]]
+        position = "Unit Manager"
+        dates = "2011 - 2013"
+        company = "Prudential"
+        details = "Manage teams to reach target every month"
+
+        [[params.jobs.list]]
+        position = "Subject Coordinator and Network Administrator"
+        dates = "2007-2010"
+        company = "Software Laboratory Center, Bina Nusantara University"
+        details = """<li>Designing, maintaining, and troubleshooting network and system operational in Software Laboratory that involves Novell Netware and Windows Platform</li>
+                  <li>Designing, maintaining, and troubleshooting network and system security on Novell Netware and Windows platform for around 1500 workstations and users that includes student, software laboratory staffs, and teaching assistants, with different needs and security access</li>
+                  <li>Providing technical support in network, system and infrastructure for activities that were held in or by Software Laboratory</li>
+                  <li>Responsible for quality of laboratory material including exam material and examination criteria</li>
+                  <li>Installation and maintenance of servers and workstations. Hardware upgrades for servers and workstations.</li>
+                  <li>Teaching and assisting university students in lab sessions of various programming language and software usage</li>
+                  """
 
     # Projects section
     [params.projects]
         enable = true
         icon = "fa-archive"
         title = "Projects"
-        intro = "**You can list your side projects or open source libraries in this section.** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus"
+        intro = "**These are the projects that I have worked on. From being developers and BA"
 
         [[params.projects.list]]
-        title = "Hugrid"
-        url = "https://github.com/aerohub/hugrid"
-        tagline = "Grid theme for Hugo. It's a kind of boilerplate to perform anyone or anything quickly. Portfolio, collection, bookmarks, contacts and so on"
+        title = "CBBA"
+        #url = "https://github.com/aerohub/hugrid"
+        tagline = "**Workflow**. This project is based on BPMN2, built by jBPM with REST API to MeteorJS + ReactJS and mongoDB as the database collection. With a support of Docker, ElasticSearch and lastly, pentaho for data wrangling to ETL database"
 
         [[params.projects.list]]
-        title = "Simple FAQ Theme for Hugo"
-        url = "https://github.com/aerohub/hugo-faq-theme"
-        tagline = "Simple FAQ Theme for Hugo. You may use this theme for building very simple FAQs or note lists."
+        title = "CBBA Courier Dashboard"
+        #url = "https://github.com/aerohub/hugo-faq-theme"
+        tagline = "Simple application that read from the main database to display data from production(order) to customer(delivery). This is integrated with UPS and Machship[Freigh Concept]"
 
         [[params.projects.list]]
-        title = "Hugo Identity"
-        url = "https://github.com/aerohub/hugo-identity-theme"
-        tagline = "Little profile/card-style template for Hugo."
+        title = "Form Builder"
+        #url = "https://github.com/aerohub/hugo-faq-theme"
+        tagline = "This is built using Mozilla Formbuilder with ElectrodeJS. The purpose of this application is to support human tasks that are generated from jBPM. It can create forms with ease."
 
         [[params.projects.list]]
-        title = "Orbit"
-        url = "https://github.com/aerohub/hugo-orbit-theme"
-        tagline = "Hugo Resume/CV Theme for Developers."
+        title = "Shipping Calculator"
+        #url = "https://github.com/aerohub/hugo-identity-theme"
+        tagline = "A simple application that integrates with Machship and PandaDoc (Quotation System) to calculate shipping costs from various couriers in Australia"
 
         [[params.projects.list]]
-        title = "Me"
-        url = "https://github.com/aerohub/hugo-me-theme"
-        tagline = "A simple responsive Hugo theme for personal site."
+        title = "Close IO Data Dashboard"
+        #url = "https://github.com/aerohub/hugo-orbit-theme"
+        tagline = "KPI reporting dashboard for sales team that allows decision-makers to take actions. This reporting is using Google BigQuery, Google Data Studio, kubernetes, Python"
+
+        [[params.projects.list]]
+        title = "Saasu Data Dashboard"
+        #url = "https://github.com/aerohub/hugo-me-theme"
+        tagline = "Live streaming financial data dashboard report for management team.  This reporting is using Google BigQuery, Google Data Studio, kubernetes, Python"
+
+        [[params.projects.list]]
+        title = "Retail Management"
+        #url = "https://github.com/aerohub/hugo-me-theme"
+        tagline = "Build with VBA and MsAccess for a simple application that controls stock system"
+
+        [[params.projects.list]]
+        title = "Timesheet Management System"
+        #url = "https://github.com/aerohub/hugo-me-theme"
+        tagline = "Build with ASP.NET and SQL Server in order to solve timesheet problem"
 
     # Skills section
     [params.skills]
@@ -219,12 +265,12 @@ disable404 = true
         level = "80%"
 
         [[params.skills.list]]
-        skill = "Deployment (Kubernetes)"
-        level = "60%"
+        skill = "Deployment (Kubernetes,Docker)"
+        level = "65%"
 
         [[params.skills.list]]
-        skill = "Web Development"
-        level = "60%"
+        skill = "Web Development(PHP,reactJS,NodeJS,HTML)"
+        level = "55%"
 
     # Footer section
 
@@ -236,4 +282,4 @@ disable404 = true
     # As for Hugo port you may rewrite the "Ported for..." line with setting your name below.
 
     [params.footer]
-        copyright = ""
+        copyright = "Herman Nanda Rusdy"
