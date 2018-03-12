@@ -142,8 +142,9 @@ disable404 = true
         position = "Business / System Analyst"
         dates = "2015 - Present"
         company = "Clearbridge Group PTY LTD, Melbourne, Australia"
-        details = """<li>Gathering requirements and turn into use case/user stories/RTM and test cases</li>
-                  <li>Create and manage reporting dashboard from CRM and Accounting (saasu) system</li>
+        details = """<li>Gathering requirements from stakeholders and turn into use case/user stories/RTM and test cases</li>
+                  <li>Create and manage reporting dashboard from CRM and Accounting (saasu) system with bigquery and Google Data Studio</li>
+                  <li>Data wrangling with Pentaho and Trifacta</li>
                   <li>Working closely with PM to manage projects with Agile Development</li>
                   <li>Interviewing and solving client's problems</li>
                   <li>Responsible for users' training for new features</li>
