@@ -4,8 +4,8 @@ baseurl = "https://hnandarusdy.github.io/herman-cv/"
 languageCode = "en-us"
 title = "Herman resume"
 theme = "herman-cv"
-googleAnalytics = "UA-XXXXXXX-Y"
 publishDir = "docs"
+googleAnalytics = "UA-116218136-1"
 
 # Do not build files for websites. Need them? Set to false
 disableRSS = true
