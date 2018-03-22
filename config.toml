@@ -259,11 +259,15 @@ disable404 = true
         level = "95%"
 
         [[params.skills.list]]
+        skill = "Versioning Control (Git and Bitbucket)"
+        level = "90%"
+
+        [[params.skills.list]]
         skill = "Project Management (PMBOK) using Jira and Confluence"
         level = "85%"
 
         [[params.skills.list]]
-        skill = "OS (Microsoft & Linux)"
+        skill = "OS (Microsoft & Linux) including Linux scripting"
         level = "80%"
 
         [[params.skills.list]]
