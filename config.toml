@@ -271,11 +271,11 @@ disable404 = true
         level = "80%"
 
         [[params.skills.list]]
-        skill = "Google Cloud Platform and Clusters (VM, Kubernetes, Docker)"
-        level = "65%"
+        skill = "Google Admin Console "
+        level = "75%"        
 
         [[params.skills.list]]
-        skill = "Google Admin Console "
+        skill = "Google Cloud Platform and Clusters (VM, Kubernetes, Docker)"
         level = "65%"
 
         [[params.skills.list]]
