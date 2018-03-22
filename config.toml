@@ -237,8 +237,13 @@ disable404 = true
         icon = "fa-rocket"
         title = "Skills & Proficiency"
 
+
         [[params.skills.list]]
-        skill = "BA Skills (BPM, DFD, RTM, Use Case, User Stories)"
+        skill = "AGILE Development Methodology"
+        level = "95%"
+
+        [[params.skills.list]]
+        skill = "BA Skills (BPMN, DFD, RTM, Use Case, User Stories)"
         level = "95%"
 
         [[params.skills.list]]
@@ -246,19 +251,15 @@ disable404 = true
         level = "95%"
 
         [[params.skills.list]]
-        skill = "Data Analysis [Dashboard Reporting]"
+        skill = "Data Visualisation(Google Data Studio and Tableau)"
         level = "95%"
 
         [[params.skills.list]]
-        skill = "Analytic skills"
+        skill = "Database Skills (SQL and nonSQL queries) - MySQL, postGreSQL, SQL Server, MongoDB, Bigquery"
         level = "95%"
 
         [[params.skills.list]]
-        skill = "Database Skills (CRUD, Query)"
-        level = "95%"
-
-        [[params.skills.list]]
-        skill = "Project Management (PMBOK)"
+        skill = "Project Management (PMBOK) using Jira and Confluence"
         level = "85%"
 
         [[params.skills.list]]
@@ -266,7 +267,11 @@ disable404 = true
         level = "80%"
 
         [[params.skills.list]]
-        skill = "Deployment (Kubernetes,Docker)"
+        skill = "Google Cloud Platform and Clusters (VM, Kubernetes, Docker)"
+        level = "65%"
+
+        [[params.skills.list]]
+        skill = "Google Admin Console "
         level = "65%"
 
         [[params.skills.list]]
