@@ -123,7 +123,7 @@ disable404 = true
         enable = true
         icon = "fa-user"
         title = "Career Profile"
-        summary = """Beginning my IT journey in 2007 when was hired as lab assisstant to teach other students programming skills,
+        summary = """Beginning my IT journey in 2007 when was hired as a lab assistant to teach other students programming skills,
                   such as VB, PHP, Javascript, C, C++. Promoted as a subject coordinator a year later to coordinate specific subjects,
                   and eventually as a network administrator who is responsible for laboratory installation, configuration and network.
                   </br>
@@ -272,16 +272,23 @@ disable404 = true
 
         [[params.skills.list]]
         skill = "Google Admin Console "
-        level = "75%"        
+        level = "75%"
 
         [[params.skills.list]]
         skill = "Google Cloud Platform and Clusters (VM, Kubernetes, Docker)"
-        level = "65%"
+        level = "70%"
+
+        [[params.skills.list]]
+        skill = "CMS (Opencart, Magento and Wordpress)"
+        level = "75%"
 
         [[params.skills.list]]
         skill = "Web Development(PHP,reactJS,NodeJS,HTML)"
         level = "55%"
 
+        [[params.skills.list]]
+        skill = "SEO and SMO"
+        level = "45%"
     # Footer section
 
     # The original template is released under the Creative Commons Attribution 3.0 License.
